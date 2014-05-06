@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{67E07006-2643-5396-1EA8-AF865ED6CE70}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\SideScroller\Scripts\AsteroidRotate.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\CountdownTime.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\Item.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\Manager.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\OwensStuff\Code\Bridge.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\OwensStuff\Code\BridgeTrigger.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\OwensStuff\Code\Inventory.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\OwensStuff\Code\MusicPlayerCode.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\OwensStuff\Code\Rotate.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\OwensStuff\Code\StoryNode.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\OwensStuff\Code\StoryPrompt.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\PickUp.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\PlatformManager.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\RotateBody.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\Runner.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\Runner2.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\Score.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\SmoothFollow.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\CarDriver.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\CountdownTimer.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\Destroy.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\DestroyGO.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\EnemyNavigate.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\EnemyShooter.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\EnemyTrigger.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\ExitGame.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\FireSound.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\HardGame.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\HighScore.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\InfiniteTerrain.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\KeepingScore.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\Movement.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\NavigateToObject.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\NewGame.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\PathThroughTargets.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\PlayerScore.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\PlayerTrigger.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\StatusBar.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\StatusBar1.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\StatusBar2.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\TankfireBullet.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\TimerDrop.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\TurretFire.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\TurretScript.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\WinShot.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\fireBall.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\moveLeftRight.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TankScripts\rotateUpandDown.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\TimeScore.cs" />
+     <Compile Include="Assets\SideScroller\Scripts\bryanvector1.cs" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{E9EA0E3D-9888-1B31-22D7-62A2D111B1DC}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{A682542D-E520-899E-DE5C-15EB3F5C26F3}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
