@@ -11,7 +11,8 @@ public class DestroyBullet : MonoBehaviour {
 		
 		if (life <= 0.0)
 		{
-			Destroy(gameObject);	
+			Destroy(gameObject);
+
 		}
 	}
 }
